@@ -1,5 +1,5 @@
 import React from "react";
-import kitchenVideo from "../assets/kitchenVideo.mp4";
+import KitchenVideo from "../assets/KitchenVideo.mp4";
 
 function AboutUs() {
   return (
@@ -9,7 +9,7 @@ function AboutUs() {
         <h2 className="text-3xl font-semibold text-center text-orange-500 mb-8">Behind the Scenes</h2>
         <div className="flex justify-center">
           <video
-            src={kitchenVideo}
+            src={KitchenVideo}
             controls
             className="w-full rounded-lg shadow-lg"
           >
