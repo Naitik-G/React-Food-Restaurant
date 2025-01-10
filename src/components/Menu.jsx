@@ -34,7 +34,7 @@ function FeaturedSection() {
   return (
     <div
       id="menu"
-      className="relative  w-full h-screen flex items-center justify-center bg-cover bg-center"
+      className="relative  w-full h-screen flex items-center justify-center bg-cover bg-center overflow-hidden"
       
     >
       {/* Overlay for Dark Theme */}

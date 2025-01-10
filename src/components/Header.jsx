@@ -11,16 +11,13 @@ function Header() {
   return (
     <div className="sticky top-0 z-50 bg-gradient-to-r from-orange-400 to-orange-600 w-full shadow-md">
       <div className="flex items-center justify-between px-6 py-3 max-w-screen-lg mx-auto">
-        {/* Logo on the left */}
-        <div className="flex-shrink-0 text-white text-2xl font-bold">
-          <a href="#home">MyLogo</a>
-        </div>
+        {/* Logo on the left */} <div className={`flex-shrink-0 text-white text-2xl font-bold ${isOpen ? 'hidden' : 'block'} md:block`}> <a href="#home">Food</a> </div>
 
         {/* Hamburger Icon for Mobile */}
         <div className="flex md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-white focus:outline-none"
+            className="text-white focus:outline-none absolute top-3 right-5"
           >
             <svg
               className="w-6 h-6"
@@ -51,7 +48,7 @@ function Header() {
         {/* Centered Navigation Links */}
         <ul
           className={`flex-col md:flex-row md:flex space-y-2 md:space-y-0 md:space-x-8 text-white ${
-            isOpen ? "flex" : "hidden"
+            isOpen ? "flex mx-auto" : "hidden"
           } md:space-x-8 md:items-center text-center md:text-left mt-2 md:mt-0`}
         >
           <NavLink
