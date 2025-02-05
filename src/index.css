@@ -5,3 +5,10 @@
 html {
   scroll-behavior: smooth;
 }
+
+@layer base {
+  body {
+    @apply overflow-hidden;
+  }
+}
+
