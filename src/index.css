@@ -6,9 +6,9 @@ html {
   scroll-behavior: smooth;
 }
 
-@layer base {
-  body {
-    @apply overflow-hidden;
-  }
+/* index.css or globals.css */
+body {
+  @apply overflow-x-hidden;
 }
+
 
