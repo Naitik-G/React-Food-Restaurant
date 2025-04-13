@@ -92,7 +92,8 @@ const blogPosts = [
     image: Blog4,
     category: 'Sustainability',
     date: 'October 10, 2024',
-  },clearImmediate
+  },
+  
 ];
 
 const menuItems = {
