@@ -4,8 +4,8 @@ import App from './App.jsx';
 import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Sections from './Sections.jsx';
-import FullMenu from './components/pages/FullMenu.jsx';
-import Blogs from './components/pages/Blogs.jsx';
+import FullMenu from './pages/FullMenu.jsx';
+import Blogs from './pages/Blogs.jsx';
 
 // Define the router correctly
 const router = createBrowserRouter([
