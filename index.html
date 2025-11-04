@@ -2,9 +2,165 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <link rel="apple-touch-icon" href="/logo.svg" />
+    
+    <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Foodify Restaurant - Premium Fine Dining in Kanpur | Reserve Your Table</title>
+    <meta name="title" content="Foodify Restaurant - Premium Fine Dining in Kanpur | Reserve Your Table" />
+    <meta name="description" content="Experience culinary excellence at Foodify Restaurant. Award-winning chefs, farm-to-table ingredients, and 5-star Michelin-rated dining. Book your table now in Kanpur, Uttar Pradesh." />
+    <meta name="keywords" content="restaurant, fine dining, Kanpur restaurant, premium dining, food reservation, best restaurant, Michelin rated, Indian cuisine, multi-cuisine restaurant, farm to table" />
+    <meta name="author" content="Foodify Restaurant" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.foodify-restaurant.com/" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.foodify-restaurant.com/" />
+    <meta property="og:title" content="Foodify Restaurant - Premium Fine Dining in" />
+    <meta property="og:description" content="Experience culinary excellence at Foodify Restaurant. Award-winning chefs, farm-to-table ingredients, and 5-star Michelin-rated dining." />
+    <meta property="og:image" content="banner_img.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Foodify Restaurant" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://www.foodify-restaurant.com/" />
+    <meta name="twitter:title" content="Foodify Restaurant - Premium Fine Dining in Kanpur" />
+    <meta name="twitter:description" content="Experience culinary excellence at Foodify Restaurant. Award-winning chefs, farm-to-table ingredients, and 5-star Michelin-rated dining." />
+    <meta name="twitter:image" content="banner_img.jpg" />
+    <meta name="twitter:creator" content="@foodify_restaurant" />
+    
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="IN-UP" />
+    <meta name="geo.position" content="26.449923;80.331871" />
+    <meta name="ICBM" content="26.449923, 80.331871" />
+    
+    <!-- Contact & Business Info -->
+    <meta name="contact" content="indiandev2001@gmail.com" />
+    <meta name="phone" content="+91-555-000-0000" />
+    <meta name="address" content="Uttar Pradesh, India" />
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#f97316" />
+    <meta name="msapplication-TileColor" content="#f97316" />
+    
+    <!-- Structured Data / JSON-LD for Rich Results -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Foodify Restaurant",
+      "image": "/logo.svg",
+      "@id": "https://www.foodify-restaurant.com",
+      "url": "https://www.foodify-restaurant.com",
+      "telephone": "+91-555-000-0000",
+      "email": "indiandev2001@gmail.com",
+      "priceRange": "₹₹₹",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Your Street Address",
+        "addressRegion": "UP",
+        "addressCountry": "IN"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "22:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "09:00",
+          "closes": "12:00"
+        }
+      ],
+      "servesCuisine": [
+        "Indian",
+        "Continental",
+        "Multi-Cuisine",
+        "Fine Dining"
+      ],
+      "acceptsReservations": "True",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "10000"
+      },
+      "starRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "sameAs": [
+        "https://www.facebook.com/foodify",
+        "https://www.instagram.com/foodify",
+        "https://twitter.com/foodify_restaurant",
+        "https://www.linkedin.com/company/foodify"
+      ]
+    }
+    </script>
+    
+    <!-- Additional Structured Data for Menu -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Menu",
+      "name": "Foodify Restaurant Menu",
+      "description": "Award-winning dishes featuring farm-to-table ingredients",
+      "hasMenuSection": [
+        {
+          "@type": "MenuSection",
+          "name": "Small Bites",
+          "description": "Appetizers and starters"
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Main Course",
+          "description": "Signature dishes and specialties"
+        },
+        {
+          "@type": "MenuSection",
+          "name": "Beverages",
+          "description": "Teas, coffees, and specialty drinks"
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Preconnect to external resources for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- DNS Prefetch -->
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+    
   </head>
   <body>
     <div id="root"></div>
