@@ -77,7 +77,7 @@ Foodify is a modern, full-featured restaurant website with an integrated reserva
 ![Full Page](./public/restuarant_img.jpeg)
 
 ### Blog Page
-![Blog](./preview/blog-preview.png)
+![Blog](./public/blog_img.jpeg)
 
 ## 🚀 Getting Started
 
@@ -156,45 +156,6 @@ Update these files with your information:
 - **Contact Info:** `src/components/Footer.jsx`
 - **SEO Meta Tags:** `index.html`
 
-## 📁 Project Structure
-```
-foodify-restaurant/
-├── public/
-│   ├── logo.svg
-│   ├── og-image.jpg
-│   └── kitchen.mp4
-├── src/
-│   ├── assets/
-│   │   └── images/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Home.jsx
-│   │   ├── FeaturedSection.jsx
-│   │   ├── ReservationForm.jsx
-│   │   ├── ContactForm.jsx
-│   │   ├── AboutUs.jsx
-│   │   └── FullMenu.jsx
-│   ├── pages/
-│   │   └── Blogs.jsx
-│   ├── services/
-│   │   └── emailService.js
-│   ├── config/
-│   │   └── emailConfig.js
-│   ├── utils/
-│   │   └── emailTemplate.js
-│   ├── data/
-│   │   └── data.js
-│   ├── App.jsx
-│   └── main.jsx
-├── .env
-├── .gitignore
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-└── README.md
-```
-
 ## 🌐 Deployment
 
 ### Netlify Deployment
@@ -265,16 +226,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- Email: your-email@example.com
-- LinkedIn: [your-profile](https://linkedin.com/in/your-profile)
+- GitHub: [@Naitik-G](https://github.com/Naitik-G)
+- Email: kumarnaitk22@gmail.com
+
+
 
 ## 🙏 Acknowledgments
 
 - [React.js](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [EmailJS](https://www.emailjs.com/)
-- [Unsplash](https://unsplash.com/) for images
 - [Lucide Icons](https://lucide.dev/)
 
 ## 📞 Support
